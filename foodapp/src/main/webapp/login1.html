@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login1.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form id="login-form">
+            <input type="text" id="username" placeholder="Username" required>
+            <input type="password" id="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+        <div class="register-link">
+            <a href="#" id="register-link">Register</a>
+        </div>
+    </div>
+    <div class="overlay" id="overlay">
+        <div class="popup">
+            <h2>Register</h2>
+            <form id="register-form">
+                <!-- Registration form fields -->
+                <button type="button" id="close-popup">Close</button>
+            </form>
+        </div>
+    </div>
+    <script >
+    document.getElementById('register-link').addEventListener('click', function(e) {
+        e.preventDefault();
+        document.getElementById('overlay').style.display = 'flex';
+    });
+
+    document.getElementById('close-popup').addEventListener('click', function() {
+        document.getElementById('overlay').style.display = 'none';
+    });
+    </script>
+</body>
+</html>

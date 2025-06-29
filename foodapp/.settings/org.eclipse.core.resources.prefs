@@ -1,0 +1,13 @@
+eclipse.preferences.version=1
+encoding//src/main/java/DaoImplementation/CartImp.java=UTF-8
+encoding//src/main/java/DaoImplementation/OrderImp.java=UTF-8
+encoding//src/main/java/com/tap/servlets/AddToCartServlet.java=UTF-8
+encoding//src/main/java/com/tap/servlets/CartServlet.java=UTF-8
+encoding//src/main/java/com/tap/servlets/LoginSev.java=UTF-8
+encoding//src/main/java/com/tap/servlets/MenuServlet.java=UTF-8
+encoding//src/main/java/com/tap/servlets/Orderserv.java=UTF-8
+encoding//src/main/java/com/tap/servlets/RegisterServlet.java=UTF-8
+encoding//src/main/java/domain/Restaurant.java=UTF-8
+encoding//src/main/webapp/Cart.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/Orderhistory.jsp=UTF-8
+encoding//src/main/webapp/menu.jsp=UTF-8
